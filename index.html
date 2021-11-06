@@ -12,7 +12,19 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div>Something</div>
-    <script src="./script.js" type="module"></script>
+    <div class="todo">
+      <h1>To-Do List with JavaScript</h1>
+      <div class="todo__form">
+        <div class="todo__input">
+          <input type="text" id="description" autofocus />
+        </div>
+        <div class="todo__button">
+          <button id="btn">Save</button>
+        </div>
+      </div>
+      <ul class="todo__list"></ul>
+    </div>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
